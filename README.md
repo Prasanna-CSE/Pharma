@@ -1,5 +1,5 @@
 # Project Responsive Web Design using Bootstrap
-## Date:29-04-2024
+## Date:13-05-2024
 
 ## AIM:
 To design a responsive website for a Pharmaceutical Company using Bootstrap.
@@ -26,8 +26,8 @@ Create a HTML file and include the needed Bootstrap components.
 Publish the website in the LocalHost.
 
 ## PROGRAM :
-~~~
-home.html
+```
+##HOME.HTML
 
 <html lang="en">
 <head>
@@ -39,7 +39,7 @@ home.html
   <!-- Custom CSS -->
   <style>
     body {
-      background-image: url("back.webp");
+      background-image: url("back.avif");
       background-size: cover;
       background-repeat: no-repeat;
       font-size: 19px;
@@ -60,7 +60,7 @@ home.html
 
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-success">
-    <a class="navbar-brand" href="#">AI PHARMACEUTICALS</a>
+    <a class="navbar-brand" href="#">PS PHARMACEUTICALS</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -93,16 +93,16 @@ home.html
   <div class="container mt-5">
     <div class="row">
       <div class="col-md-8">
-        <h1>WELCOME TO AI PHARMACEUTICAL</h1>
-        <p>Welcome to AI Pharmaceuticals.We provide you the best quality of Medicines.Customers well being is what we wish always.</p>
+        <h1>WELCOME TO PS PHARMACEUTICAL</h1>
+        <p>Welcome to PS Pharmaceuticals.We provide you the best quality of Medicines.Customers well being is what we wish always.</p>
         <p>At Our Pharmaceuticals, we provide you all kind of medicines.</p>
-        <p>Thank you for choosing and trusting AI Pharmaceuticals.</p>
+        <p>Thank you for choosing and trusting PS Pharmaceuticals.</p>
       </div>
       <div class="col-md-5">
-        <img src="tb.jpg" class="img-fluid" alt="Pharmacy Image" width="2000" height="2000">
+        <img src="PHAR1.jpeg" class="img-fluid" alt="Pharmacy Image" width="2000" height="2000">
       </div>
       <div class="col-md-4">
-        <img src="tt.avif" class="img-fluid" alt="Pharmacy Image" width="2000" height="2000">
+        <img src="PHAR2.jpg" class="img-fluid" alt="Pharmacy Image" width="2000" height="2000">
       </div>
        
       </div>
@@ -111,7 +111,7 @@ home.html
 
   <!-- Footer -->
   <footer class="bg-dark text-white text-center py-4 mt-5">
-    <p>&copy; 2024 PharmaCompany - VARSHA A(212223220121). All rights reserved.</p>
+    <p>&copy; 2024 PharmaCompany - Prasanna(212223220130) All rights reserved.</p>
   </footer>
 
   <!-- Bootstrap JS -->
@@ -120,11 +120,9 @@ home.html
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
-~~~
-
-~~~
-about.html
-
+```
+```
+##ABOUT.HTML
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -135,7 +133,7 @@ about.html
   <!-- Custom CSS -->
   <style>
     body {
-      background-image: url("back.webp");
+      background-image: url("back.avif");
       background-size: cover;
       background-repeat: no-repeat;
       font-size: 19px;
@@ -191,7 +189,7 @@ about.html
   <div class="container mt-5">
     <div class="row">
       <div class="col-md-12">
-        <h1>About AI PHARMACEUTICALS</h1>
+        <h1>About PS PHARMACEUTICALS</h1>
         <div id="vision">
           <h2>Vision</h2>
           <p>Our vision is to become a global leader in providing groundbreaking healthcare solutions that enhance the well-being of individuals worldwide. We aspire to pioneer innovations that redefine healthcare standards, empowering people to lead healthier, more fulfilling lives.</p>
@@ -212,7 +210,7 @@ about.html
 
   <!-- Footer -->
   <footer class="bg-dark text-white text-center py-4 mt-5">
-    <p>&copy; 2024 PharmaCompany - VARSHA A(212223220121) All rights reserved.</p>
+    <p>&copy; 2024 PharmaCompany - Prasanna(212223220130) All rights reserved.</p>
   </footer>
 
   <!-- Bootstrap JS -->
@@ -221,10 +219,9 @@ about.html
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
-~~~
-
-~~~
-product.html
+```
+```
+##PRODUCT.HTML
 
 <html lang="en">
 <head>
@@ -236,7 +233,7 @@ product.html
   <!-- Custom CSS -->
   <style>
     body {
-      background-image: url("back.webp");
+      background-image: url("back.avif");
       background-size: cover;
       background-repeat: no-repeat;
       font-size: 10px;
@@ -257,7 +254,7 @@ product.html
 
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-success">
-    <a class="navbar-brand" href="#">AI PHARMACEUTICALS</a>
+    <a class="navbar-brand" href="#">PS PHARMACEUTICALS</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -295,7 +292,7 @@ product.html
         <h1>Our Products</h1>
         <div class="card-deck">
           <div class="card">
-            <img src="cough.webp" class="card-img-top" alt="Product 1">
+            <img src="SYRUP.jpg" class="card-img-top" alt="Product 1">
             <div class="card-body">
               <h5 class="card-title">Product 1</h5>
               <p class="card-text">Pankajakasthuri Cough Syrup with Tulsi 100ml</p>
@@ -303,7 +300,7 @@ product.html
             </div>
           </div>
           <div class="card">
-            <img src="boster.webp" class="card-img-top" alt="Product 2">
+            <img src="THULSI.webp" class="card-img-top" alt="Product 2">
             <div class="card-body">
               <h5 class="card-title">Product 2</h5>
               <p class="card-text">Health Veda Organics Natural Immunity Booster Capsules for Men & Women I Immunity blend of Amla, Giloy, Tulsi, Neem & Ashwagandha I 60 Veg Capsules</p>
@@ -311,10 +308,10 @@ product.html
             </div>
           </div>
           <div class="card">
-            <img src="tablet.jpg" class="card-img-top" alt="Product 3">
+            <img src="HAIR.webp" class="card-img-top" alt="Product 3">
             <div class="card-body">
               <h5 class="card-title">Product 3</h5>
-              <p class="card-text">Amway Tulsi Tablet Supports Immunity 60N (Tablets) for Immunity</p>
+              <p class="card-text">HAIR GROWTH Tablet Supports Immunity 60N (Tablets) for Immunity</p>
               <a href="#" class="btn btn-primary">Buy Now</a>
             </div>
           </div>
@@ -325,7 +322,7 @@ product.html
 
   <!-- Footer -->
   <footer class="bg-dark text-white text-center py-4 mt-5">
-    <p>&copy; 2024 PharmaCompany - VARSHA A(212223220121). All rights reserved.</p>
+    <p>&copy; 2024 PharmaCompany - Prasanna(212223220130) All rights reserved.</p>
   </footer>
 
   <!-- Bootstrap JS -->
@@ -335,7 +332,10 @@ product.html
 </body>
 </html>
 
-contact.html
+```
+```
+## CONTACT.HTML
+
 
 <html lang="en">
 <head>
@@ -347,7 +347,7 @@ contact.html
   <!-- Custom CSS -->
   <style>
     body {
-      background-image: url("back.webp");
+      background-image: url("back.avif");
       background-size: cover;
       background-repeat: no-repeat;
       font-size: 19px;
@@ -368,7 +368,7 @@ contact.html
 
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-success">
-    <a class="navbar-brand" href="#">AI PHARMACEUTICAL</a>
+    <a class="navbar-brand" href="#">PS PHARMACEUTICAL</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -414,15 +414,15 @@ contact.html
         </form>
       </div>
       <div class="col-md-4">
-        <h2>AI PHARMACEUTICAL</h2>
+        <h2>PS PHARMACEUTICAL</h2>
         <address>
           <strong>Address:</strong><br>
-          near college street,chennai<br>
+          Saveetha college street,chennai<br>
           <br>
           <strong>Email:</strong><br>
-          ai.pharma@gmail.com<br><br>
+          ps.pharma@gmail.com<br><br>
           <strong>Phone:</strong><br>
-          +91-8856421390
+          +91-9524140982
         </address>
       </div>
     </div>
@@ -430,7 +430,7 @@ contact.html
 
   <!-- Footer -->
   <footer class="bg-dark text-white text-center py-4 mt-5">
-    <p>&copy; 2024 PharmaCompany - VARSHA A(212223220121) All rights reserved.</p>
+    <p>&copy; 2024 PharmaCompany - Prasanna(212223220130) All rights reserved.</p>
   </footer>
 
   <!-- Bootstrap JS -->
@@ -439,16 +439,11 @@ contact.html
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
-~~~
-
+```
 ## OUTPUT:
-![Screenshot 2024-05-11 090510](https://github.com/04Varsha/Pharma/assets/149035374/3abd0773-579d-4710-a5e6-9711dc966c39)
-
-![Screenshot 2024-05-11 091815](https://github.com/04Varsha/Pharma/assets/149035374/6e79aecf-8d13-447c-ba48-8f1448e46d59)
-
-![Screenshot 2024-05-11 131331](https://github.com/04Varsha/Pharma/assets/149035374/1b44e83e-57b4-4809-a804-2bec282f3c1e)
-
-![Screenshot 2024-05-11 091203](https://github.com/04Varsha/Pharma/assets/149035374/fd2df671-467e-444c-aba9-a7f41128e842)
-
+![alt text](<prasanna/pharapp/static/Screenshot (121).png>)
+![alt text](<prasanna/pharapp/static/Screenshot (122).png>)
+![alt text](<prasanna/pharapp/static/Screenshot (123).png>)
+![alt text](<prasanna/pharapp/static/Screenshot (124).png>)
 ## RESULT:
 The Project for responsive web design using Bootstrap is completed successfully.
